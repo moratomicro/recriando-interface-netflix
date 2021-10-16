@@ -13,7 +13,7 @@
 
 body {
     background: var(--preta);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial', Times New Roman, Times, serif;
     color: white;
 }
 
@@ -44,7 +44,7 @@ header nav a:hover {
 /*Elementos titulo principal*/
 .titulo-principal {
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/assets/img/capafullmeta1.jpg');
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/assets/img/capafullmeta1.jpeg');
     height: 350px;
     background-size: cover;
     display: flex;
@@ -60,7 +60,7 @@ header nav a:hover {
 
 .titulo {
     margin-top: 15px;
-    font-size: 50px;
+    font-size: 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -98,4 +98,19 @@ header nav a:hover {
     height: 100%;
     width: 100%;
     display: block;
+}
+
+.carrousel-animes {
+    margin-top: 5px;
+}
+
+.pages {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/assets/img/capafullmeta1.jpeg');
+    height: 800px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
